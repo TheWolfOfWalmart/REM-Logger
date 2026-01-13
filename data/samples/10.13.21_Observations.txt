@@ -1,0 +1,17 @@
+-Logging
+	-Was able to log the whole night!
+	
+-Grid eye
+	-Promising signs that this sensor will be a valid way to detect REM
+	-unexpectedly, std dev showed clear distinctions in rem/non rem sleep- more than frame change average
+	-will have to build in and tune moving average
+	-was not able to correlate to lack of accelerometer activity, see below
+	
+-Accelerometer
+	- Quite a bit of noise
+	- X showed the same value for the whole night, and was a very negative value (like ~-500 or similar)
+	- Need to troubleshoot
+
+To do:
+- integrate maoving average into current stats and tune
+- troubleshoot accelerometer

@@ -1,0 +1,31 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Arduino
+*.hex
+*.elf
+*.bin
+build/
+build.options.json
+
+# Processing
+*.class
+application.linux*/
+application.windows*/
+application.macosx*/
+
+# CAD temporary files
+*~.SLDASM
+*~.SLDPRT
+*.bak
+
+# Data Logs
+*.csv
+*.log
+!data/samples/*.csv
+!data/samples/*.log
+
+# Editor
+.vscode/
+*.code-workspace
